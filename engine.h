@@ -208,8 +208,8 @@ void Engine::syncWindow()
 	}
 	else
 	{
-		int winPosX = (boundX / 2) - (width / 2);
-		int winPosY = (boundY / 2) - (height / 2);
+		winPosX = (boundX / 2) - (width / 2);
+		winPosY = (boundY / 2) - (height / 2);
 
 		mvwin(win,winPosY,winPosX);
 	}
